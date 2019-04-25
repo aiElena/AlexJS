@@ -1,11 +1,9 @@
-function bum(x, y) {
-    for (; x <= 10; x++) {
-        document.write(x + '*' + (y) + '= ' + (x * y) + '<br>');
-    }
+/*let x = 0, y = 2;
+
+for (; x <= 10; x++) {
+document.write((x) + '*' + (y) + '= ' + (x * y) + '<br>');
 }
-bum(0, 2);
-
-
+*/
 
 //1
 //let x = 0;
@@ -53,17 +51,7 @@ if (x > y && x > z && y > z) {
 }
 */
 
-//let x = 10;
-//let y = 11;
-//let z = 12;
-//if (x > y || x > z) {
-//console.log('x-это max');ddd
-//console.log('x-это max');ddd
-//console.log('x-это max');
-//console.log('x-это max');
-//}else{
-//console.log('no');
-//}
+
 
 
 //6
@@ -158,7 +146,6 @@ out_num.innerHTML = multiply2();
 
 /*  let x = '*';
 
-
   for (i = 0; i < 4; i++) {
       for (j = 0; j < 1; j++) {
           x += '*';
@@ -170,9 +157,6 @@ out_num.innerHTML = multiply2();
   out_num.innerHTML = (x);
   console.log(x);
 
-/*
-
-
 let x = '*';
 let out_num = document.getElementById('out_num');
 for (let i = 1; i < 5; i++) {
@@ -180,7 +164,4 @@ for (let i = 1; i < 5; i++) {
 }
 out_num.innerHTML = (x);
 console.log(x);
-
 */
-
-
