@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3526d28c-9036-4b59-9a1b-fc15421ad572" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="3526d28c-9036-4b59-9a1b-fc15421ad572" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -88,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="172" />
     <option name="y" value="122" />
     <option name="width" value="976" />
@@ -146,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556183460142</updated>
       <workItem from="1556183462874" duration="7125000" />
-      <workItem from="1556525911462" duration="273000" />
+      <workItem from="1556525911462" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1556184571725</created>
@@ -176,11 +174,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556188807575</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="style">
+      <created>1556526223576</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556526223576</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7398000" />
+    <option name="totallyTimeSpent" value="7641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,10 +197,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="172" y="122" width="976" height="796" extended-state="0" />
-    <editor active="true" />
+    <frame x="172" y="122" width="976" height="796" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3347548" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3347548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -204,11 +208,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" visible="true" weight="0.24397591" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" visible="true" weight="0.44126505" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.24397591" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.44126505" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -219,7 +223,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="style" />
+    <option name="LAST_COMMIT_MESSAGE" value="style" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.js">
