@@ -1,0 +1,19 @@
+h1{
+    color: #00ff00;
+}
+h1,
+h3{
+    text-align: center;
+}
+.test{
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid #00ff00;
+}
+p#out_num1,
+p#out_num2,
+p#out_num3,
+p#out_num4,
+p#out_num5{
+    text-align: center;
+}
