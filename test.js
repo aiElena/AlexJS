@@ -1,8 +1,7 @@
-
 let num = '12345';
 let rez = 0;
-for(i = 1; i <= 2; i++){
-    rez = (num[i]) + (num[i+1]) + '<br>';
+for (i = 1; i <= 2; i++) {
+    rez = (num[i]) + (num[i + 1]) + '<br>';
 }
 console.log(rez);
 document.getElementById("out_num1").innerHTML = rez;
@@ -11,7 +10,16 @@ document.getElementById("out_num1").innerHTML = rez;
 let hour = '16';
 let min = '05';
 let sec = '59';
-document.getElementById("out_num2").innerHTML =(hour + ':' + min + ':' + sec);
+document.getElementById("out_num2").innerHTML = (hour + ':' + min + ':' + sec);
+
+let user2 = {
+    'Коля': '1000',
+    'Вася': '500',
+    'Петя': '200'
+};
+document.getElementById("out_num3").innerHTML = user2['Коля'];
+document.getElementById("out_num3").innerHTML = user2['Вася'];
+
 
 let user1 = {
     userAge: 18,
@@ -19,12 +27,12 @@ let user1 = {
     userName: 'Fen',
     userStatus: true,
     userBets: [20, 100, 400, 10],
-    userDog:{
-        voice: function (){
+    userDog: {
+        voice: function () {
             console.log('Wooo');
         },
     },
-    create: function(){
+    create: function () {
         console.log('Dididi');
     }
 };
@@ -41,19 +49,21 @@ Math.max();
 
 console.log(user1.userBets);
 
-function User(name, surname, age){
+function User(name, surname, age) {
     this.name = name;
     this.surname = surname;
     this.age = age;
 }
+
 let user = new User("Dav", "Daav", "25");
 console.log(user);
 
 
-function deleteUser(){
+function deleteUser() {
     console.log('Run');
 }
-function updateUser(){
+
+function updateUser() {
     console.log('Run');
 }
 

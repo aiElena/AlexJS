@@ -11,6 +11,7 @@ h3{
     border: 1px solid #00ff00;
 }
 p#out_num1,
-p#out_num2{
+p#out_num2,
+p#out_num3{
     text-align: center;
 }
