@@ -1,9 +1,9 @@
 let num = '12345';
 let rez = 0;
-for (i = 1; i <= 2; i++) {
+for (i = 0; i <= 2; i++) {
     rez = (num[i]) + (num[i + 1]) + '<br>';
 }
-console.log(rez);
+
 document.getElementById("out_num1").innerHTML = rez;
 
 
@@ -19,6 +19,23 @@ let user2 = {
 };
 document.getElementById("out_num3").innerHTML = user2['Коля'];
 document.getElementById("out_num3").innerHTML = user2['Вася'];
+
+let user3 ={
+    js:['jQuery', 'Angular'],
+    php: 'hello',
+    css: 'world'
+}
+document.getElementById("out_num4").innerHTML = user3.php[0] + user3.php[1] + user3.php[2];
+
+
+function createContactsArray(len){
+    for(var i = 1, arr = []; i <= len; i++) {
+        rez = arr.push({'name': 'Contact ' + i});
+    }
+    return arr;
+}
+var contacts = createContactsArray(3);
+document.getElementById("out_num3").innerHTML = rez;
 
 
 let user1 = {

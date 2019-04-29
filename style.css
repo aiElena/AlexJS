@@ -12,6 +12,8 @@ h3{
 }
 p#out_num1,
 p#out_num2,
-p#out_num3{
+p#out_num3,
+p#out_num4,
+p#out_num5{
     text-align: center;
 }
