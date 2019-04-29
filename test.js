@@ -1,5 +1,18 @@
-let nam = '12345';
-document.getElementById("out_num").innerHTML = nam;
+
+let num = '12345';
+let rez = 0;
+for(i = 1; i <= 2; i++){
+    rez = (num[i]) + (num[i+1]) + '<br>';
+}
+console.log(rez);
+document.getElementById("out_num1").innerHTML = rez;
+
+
+let hour = '16';
+let min = '05';
+let sec = '59';
+document.getElementById("out_num2").innerHTML =(hour + ':' + min + ':' + sec);
+
 let user1 = {
     userAge: 18,
     userSurname: 'Fririr',

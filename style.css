@@ -10,3 +10,7 @@ h3{
     margin: 0 auto;
     border: 1px solid #00ff00;
 }
+p#out_num1,
+p#out_num2{
+    text-align: center;
+}
