@@ -5,3 +5,8 @@ h1,
 h3{
     text-align: center;
 }
+.test{
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid #00ff00;
+}

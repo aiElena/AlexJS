@@ -1,4 +1,5 @@
-
+let nam = '12345';
+document.getElementById("out_num").innerHTML = nam;
 let user1 = {
     userAge: 18,
     userSurname: 'Fririr',
