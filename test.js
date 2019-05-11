@@ -28,14 +28,6 @@ let user3 ={
 document.getElementById("out_num4").innerHTML = user3.php[0] + user3.php[1] + user3.php[2];
 
 
-function createContactsArray(len){
-    for(var i = 1, arr = []; i <= len; i++) {
-        rez = arr.push({'name': 'Contact ' + i});
-    }
-    return arr;
-}
-var contacts = createContactsArray(3);
-document.getElementById("out_num3").innerHTML = rez;
 
 
 let user1 = {
@@ -84,4 +76,115 @@ function updateUser() {
     console.log('Run');
 }
 
+function arrsum(){
+    let arr = ['a', 'b', 'c', 'd'];
+    rez1 = ('a' + 'b' +'<br>');
+    rez2 = ('c' + 'd');
+    rez = rez1 + rez2;
+}
+arrsum();
+document.getElementById("out_num5").innerHTML = rez;
+
+function arrMultiply(){
+    let i = 3;
+    let arr = [1, 2, 3, 4, 5];
+    rez1 = '1 * 3 = ' + arr[0] * i + '<br>';
+    rez2 = '2 * 3 = ' +  arr[1] * i + '<br>';
+    rez3 = '3 * 3 = ' +  arr[2] * i + '<br>';
+    rez4 = '4 * 3 = ' +  arr[3] * i + '<br>';
+    rez5 = '5 * 3 = ' +  arr[4] * i + '<br>';
+    rez = rez1 + rez2 + rez3 + rez4 + rez5;
+}
+arrMultiply();
+document.getElementById("out_num6").innerHTML = rez;
+
+let obj = {a: 1, b: 2, c: 3};
+console.log(obj);
+/*alert(obj.c);*/
+
+let dayWeek = {
+    1 : 'Понедельник',
+    2 : 'Вторник',
+    3 : 'Среда',
+    4 : 'Четверг',
+    5 : 'Пятница',
+    6 : 'Суббота',
+    7 : 'Воскресенье',
+}
+let day = 3;
+document.getElementById("out_num7").innerHTML = 'сегoдня - ' + dayWeek[day];
+
+
+let arrNum = [ [1, 2, 3], [4, 5, 6], [7,8,9] ];
+document.getElementById("out_num8").innerHTML = arrNum[1][0];
+
+
+
+function pow(x, n){
+    let result = 1;
+    if(n < 10){
+        for(let i = 0; i < n; i++){
+            result *= x;
+        }
+    }
+    return result;
+}
+
+document.write(pow(2, 2));
+document.write('<br>');
+
+var landscape = function() {
+    var result = "";
+    var flat = function(size) {
+        result += "<br>";
+        for (var count = 0; count < size; count++)
+            result += '*';
+    };
+    /*var mountain = function(size) {
+        result += "<br>";
+        for (var count = 0; count < size; count++)
+            result += "*";
+        result += "\\";
+    };*/
+
+    flat(1);
+   /* mountain(2);
+
+    mountain(1);*/
+    flat(2);
+   /* mountain(1);*/
+    flat(3);
+    flat(4);
+    return result;
+};
+
+console.log(landscape());
+
+document.write(landscape());
+
+let count = 5;
+function init(){
+    let count = 20;
+    if(count < 100){
+        let count = 30;
+        console.log('inside' + count);
+    }
+    console.log('inside' + count);
+}
+init();
+console.log('outside function' + count);
+document.write('<br>');
+for(let i = 0; i < 10; i++){
+    document.write(i);
+}
+document.write('<br>');
+
+function sayHello(name){
+    let prefix = 'Wellcome Nr. ';
+
+    document.write(prefix + name);
+}
+sayHello('John');
+document.write('<br>');
+sayHello('But');
 
