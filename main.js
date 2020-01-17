@@ -6,7 +6,7 @@ document.write((x) + '*' + (y) + '= ' + (x * y) + '<br>');
 
 
 function tb(x, y) {
-    for (x = 0; x <= 10; x++) {
+    for (x = 0; x <= 6; x++) {
         document.write(x + '*' + (y) + '= ' + (x * y) + '<br>');
     }
 }
