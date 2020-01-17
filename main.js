@@ -1,6 +1,7 @@
 
+let str = "some test string";
   
-  document.getElementById("out_num").innerHTML = "Hello!!";
+  document.getElementById("out_num").innerHTML = str;
 
  
 
