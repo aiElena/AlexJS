@@ -1,20 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   let out_num = document.getElementById('out_num');
   out_num.innerHTML = (x);
  
