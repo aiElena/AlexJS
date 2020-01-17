@@ -1,8 +1,17 @@
-let x = 0, y = 2;
+/*let x = 0, y = 2;
 
 for (; x <= 10; x++) {
 document.write((x) + '*' + (y) + '= ' + (x * y) + '<br>');
+}*/
+
+
+function tb(x, y) {
+    for (x = 0; x <= 10; x++) {
+        document.write(x + '*' + (y) + '= ' + (x * y) + '<br>');
+    }
 }
+tb(1, 3);
+document.getElementById("out_num1").innerHTML=tb(0, 4);
 
 
 //1
