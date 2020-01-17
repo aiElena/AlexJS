@@ -1,9 +1,9 @@
-/*let x = 0, y = 2;
+let x = 0, y = 2;
 
 for (; x <= 10; x++) {
 document.write((x) + '*' + (y) + '= ' + (x * y) + '<br>');
 }
-*/
+
 
 //1
 //let x = 0;
