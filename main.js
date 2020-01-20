@@ -7,6 +7,10 @@
   
  
     document.getElementById("out_num3").innerHTML = str.indexOf('string');
+	
+	
+	let position = 0;
+	document.getElementById("out_num4").innerHTML = str.indexOf(' ', str.indexOf(' ') + 1);
  
     document.getElementById("out_num5").innerHTML = str.substr(5, 4);
 
