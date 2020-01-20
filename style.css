@@ -1,12 +1,15 @@
 h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
     color: #00ff00;
 	text-align: center;
 }
 h2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
 	text-align: center;
 	color: #323232;
 }
 h3 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
     text-align: left;
 	color: #323232;
 }
@@ -18,6 +21,8 @@ h3 {
 p#out_num,
 p#out_num1,
 p#out_num2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #323232;
     text-align: center;
 	font-size: 30px;
 	font-weight: 700;
