@@ -7,7 +7,7 @@ let str = "some test string";
   
  
   document.getElementById("out_num2").innerHTML = str.indexOf('string');
-document.write(str.indexOf('string'));  
+ 
   
   
 
