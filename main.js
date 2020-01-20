@@ -11,7 +11,7 @@
 	let a = "20";
 	let b = "16";
 	let string = 0;
-    document.getElementById("out_num8").innerHTML =	string.concat( a, b);
+    document.getElementById("out_num8").innerHTML =	string( a + b);
  
 
 
