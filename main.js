@@ -15,11 +15,13 @@
 
 	document.getElementById("out_num7").innerHTML = str.slice(0,- 6);
 	
- 
+	
+	
+
 	let a = "20";
 	let b = "16";
 
- 
+	document.getElementById("out_num8").innerHTML = a.concat(b);
 
 
   
