@@ -8,10 +8,14 @@
  
     document.getElementById("out_num3").innerHTML = str.indexOf('string');
  
+    document.getElementById("out_num5").innerHTML = str.substr(5, 4);
+
+    document.getElementById("out_num6").innerHTML = str.slice(5, 9);
+ 
+ 
 	let a = "20";
 	let b = "16";
-	let string = 0;
-    document.getElementById("out_num8").innerHTML =	string( a + b);
+
  
 
 
