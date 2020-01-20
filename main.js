@@ -12,6 +12,9 @@
 
     document.getElementById("out_num6").innerHTML = str.slice(5, 9);
  
+
+	document.getElementById("out_num7").innerHTML = str.slice(0,- 6);
+	
  
 	let a = "20";
 	let b = "16";
